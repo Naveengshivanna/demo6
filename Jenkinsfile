@@ -2,6 +2,7 @@ pipeline {
     agent any
     environment {
         DOCKER_IMAGE = 'naveenkona/test-dev:latest'
+
     }
     stages {
         stage('Clone Repository') {
